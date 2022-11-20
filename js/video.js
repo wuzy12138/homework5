@@ -62,9 +62,10 @@ function skipVideo() {
 function fasterVideo() {
     video.playbackRate *= 2;
     if (video.playbackRate > 2) {
-        alert("Video is at fastest speed!");
-        // alert(video.playBackRate);
         video.playbackRate = 2;
+        // alert(video.playbackRate);
+        alert("Video is at fastest speed!");
+
     }
     
 }
@@ -72,9 +73,9 @@ function fasterVideo() {
 function slowerVideo() {
     video.playbackRate /= 2.0;
     if (video.playbackRate < 0.5) {
-        alert("Video is at slowest speed!");
-        // alert(video.playBackRate);
         video.playbackRate = 0.5;
+        // alert(video.playbackRate);
+        alert("Video is at slowest speed!");
     }
 }
 
