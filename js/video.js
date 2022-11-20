@@ -74,7 +74,7 @@ function slowerVideo() {
     if (video.playbackRate < 0.5) {
         alert("Video is at slowest speed!");
         // alert(video.playBackRate);
-        video.playBackRate = 0.5;
+        video.playbackRate = 0.5;
     }
 }
 
